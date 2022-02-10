@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "tonc_core.h": "c",
+        "tonc_memmap.h": "c",
+        "tonc_types.h": "c",
+        "malloc.h": "c",
+        "tonc_input.h": "c",
+        "tonc_text.h": "c",
+        "m3_gfx.h": "c"
+    }
+}

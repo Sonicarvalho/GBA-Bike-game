@@ -1,0 +1,549 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+ 
+# GNU Make 4.3
+# Built for x86_64-pc-msys
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Thu Feb 10 19:33:27 2022
+
+# Variables
+ 
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Users\Miguel Carvalho\Documents\java-se-8u40-ri
+# makefile (from '/c/devkitPro/devkitARM/base_rules', line 6)
+PORTLIBS_PATH := /c/devkitPro/portlibs
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 23)
+AS := arm-none-eabi-as
+# makefile (from 'Makefile', line 72)
+OUTPUT := /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/GBA_VSCode_Basic-master
+# environment
+LC_ALL = C
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 24)
+AR := arm-none-eabi-gcc-ar
+# environment
+USERPROFILE = C:\Users\Miguel Carvalho
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# makefile (from 'Makefile', line 108)
+OFILES :=   bike.o m3_gfx.o main.o obstacle.o 
+# environment
+LOCALAPPDATA = C:\Users\Miguel Carvalho\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f7e2dce0-0343-47bb-a244-d80a3dbc5405-sock
+# makefile (from 'Makefile', line 74)
+VPATH := /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/asm /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/source /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/resources /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/data 
+# makefile (from 'Makefile', line 80)
+CFILES :=  bike.c m3_gfx.c main.c obstacle.c 
+# environment
+VSCODE_CWD = C:\Users\Miguel Carvalho\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'Makefile', line 54)
+LIBS := -lmm -lgba -ltonc
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 43)
+SILENTMSG := @echo
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Users\Miguel Carvalho\Documents\WindowsPowerShell\Modules
+# default
+MAKE_COMMAND := make
+# makefile (from 'Makefile', line 104)
+OFILES_BIN := 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18620_DKCOOUAPKTLRRZZB
+# makefile (from 'Makefile', line 81)
+CPPFILES := $(subst ,,  )
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MEMU_PATH = C:\Program Files (x86)\Microvirt
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Miguel Carvalho\AppData\Roaming\Code\CachedData\d6ee99e4c045a6716e5c653d7da8e9ae6f5a8b03
+ 
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /home/MIGUEL~1/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# environment
+CONFIGSETROOT = C:\WINDOWS\ConfigSetRoot
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 82)
+SFILES := $(subst ,,  )
+# environment
+ONEDRIVE = C:\Users\Miguel Carvalho\OneDrive
+# makefile (from 'Makefile', line 2)
+DEVKITARM = /c/devkitPro/devkitARM
+# makefile
+CURDIR := /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 31)
+MUSIC := 
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 78)
+DEPSDIR := /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+!C: = c:\devkitPro\projects\gba\GBA_VSCode_Basic-master
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 1)
+MAKEFILE_LIST := Makefile /c/devkitPro/devkitARM/gba_rules /c/devkitPro/devkitARM/base_rules /c/devkitPro/devkitARM/base_tools
+# makefile (from 'Makefile', line 48)
+ASFLAGS := -g -mthumb -mthumb-interwork
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 18620
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 28)
+RANLIB := arm-none-eabi-gcc-ranlib
+# environment
+ 
+DEVKITPPC = /opt/devkitpro/devkitPPC
+# makefile (from 'Makefile', line 110)
+HFILES := 
+# makefile (from 'Makefile', line 29)
+INCLUDES := include resources
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# makefile (from '/c/devkitPro/devkitARM/gba_rules', line 10)
+LIBTONC := /c/devkitPro/libtonc
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 112)
+INCLUDE := -iquote /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/include -iquote /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/resources -I/c/devkitPro/libgba/include -I/c/devkitPro/libtonc/include -I/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build
+# environment
+ONEDRIVECONSUMER = C:\Users\Miguel Carvalho\OneDrive
+# default
+MAKE_HOST := x86_64-pc-msys
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\Miguel Carvalho
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 106)
+OFILES_SOURCES :=  bike.o m3_gfx.o main.o obstacle.o 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# makefile (from 'Makefile', line 83)
+BINFILES := 
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 116)
+LIBPATHS := -L/c/devkitPro/libgba/lib -L/c/devkitPro/libtonc/lib
+# default
+MAKE = $(MAKE_COMMAND)
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 14)
+PATH := /c/devkitPro/tools/bin:/c/devkitPro/devkitARM/bin:/opt/devkitpro/msys2/usr/bin:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Python27:/c/Python27/Scripts:/c/ProgramData/Boxstarter:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/Program Files/nodejs:/c/ProgramData/chocolatey/bin:/home/Miguel Carvalho/Documents/apache-maven-3.6.3/bin:/c/Program Files (x86)/Windows Live/Shared:/c/Program Files/dotnet:/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files (x86)/dotnet:/home/Miguel Carvalho/AppData/Local/Programs/Python/Python37/Scripts:/home/Miguel Carvalho/AppData/Local/Programs/Python/Python37:/c/Ruby25-x64/bin:/home/Miguel Carvalho/AppData/Local/Microsoft/WindowsApps:/home/Miguel Carvalho/AppData/Local/Programs/Microsoft VS Code/bin:/home/Miguel Carvalho/AppData/Roaming/npm:/home/Miguel Carvalho/Documents/apache-maven-3.6.3/bin:%USERPROFILE%/AppData/Local/Microsoft/WindowsApps
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+COMPUTERNAME = AGT190201
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 5)
+UNAME_R := 3.3.3-341.x86_64
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132176226329520618
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 19)
+PREFIX := arm-none-eabi-
+# makefile (from 'Makefile', line 61)
+ 
+LIBDIRS := /c/devkitPro/libgba /c/devkitPro/libtonc
+# environment
+LOGONSERVER = \\AGT190201
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = Miguel Carvalho
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 50)
+bin2o = 	bin2s -a 4 -H `(echo $(<F) | tr . _)`.h $< | $(AS) -o $(<F).o
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'Makefile', line 1)
+DEVKITPRO = /c/devkitPro
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 4)
+UNAME_S := MSYS_NT-10.0-19044
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = AGT190201
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := build
+# makefile (from 'Makefile', line 36)
+ARCH := -mthumb -mthumb-interwork
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 44)
+SILENTCMD := @
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'Makefile', line 27)
+BUILD := build
+# makefile (from 'Makefile', line 49)
+LDFLAGS = -g $(ARCH) -Wl,-Map,$(notdir $*.map)
+# environment
+USERDOMAIN_ROAMINGPROFILE = AGT190201
+# environment
+NUMBER_OF_PROCESSORS = 8
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 30)
+ISVC = $(or $(VCBUILDHELPER_COMMAND),$(MSBUILDEXTENSIONSPATH32),$(MSBUILDEXTENSIONSPATH))
+# environment
+PUBLIC = C:\Users\Public
+# makefile (from '/c/devkitPro/devkitARM/gba_rules', line 9)
+LIBGBA := /c/devkitPro/libgba
+# environment
+APPDATA = C:\Users\Miguel Carvalho\AppData\Roaming
+# makefile (from 'Makefile', line 41)
+CFLAGS := -g -Wall -O3 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math -mthumb -mthumb-interwork
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/Miguel Carvalho
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 13)
+DEVKITPATH = $(shell echo "$(DEVKITPRO)" | sed -e 's/^\([a-zA-Z]\):/\/\1/')
+# makefile (from '/c/devkitPro/devkitARM/gba_rules', line 7)
+PORTLIBS := /c/devkitPro/portlibs/gba /c/devkitPro/portlibs/armv4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+ 
+# environment
+TEMP = /home/MIGUEL~1/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\6b076e4cfa46f84c0cb2de02c2a28ecf-1.64.1-main-sock
+# environment
+TERM = xterm-256color
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 27)
+NM := arm-none-eabi-gcc-nm
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 26)
+TARGET := GBA_VSCode_Basic-master
+# makefile (from 'Makefile', line 95)
+LD := arm-none-eabi-gcc
+# environment
+SESSIONNAME = Console
+# makefile (from 'Makefile', line 46)
+CXXFLAGS := -g -Wall -O3 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math -mthumb -mthumb-interwork -fno-rtti -fno-exceptions
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 26)
+STRIP := arm-none-eabi-strip
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+PROCESSOR_REVISION = 8e0b
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 22)
+CXX := arm-none-eabi-g++
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 21)
+CC := arm-none-eabi-gcc
+# makefile (from '/c/devkitPro/devkitARM/base_tools', line 25)
+OBJCOPY := arm-none-eabi-objcopy
+# makefile (from 'Makefile', line 28)
+SOURCES := asm source resources
+# makefile (from 'Makefile', line 30)
+DATA := data
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 11, GenuineIntel
+# variable set hash-table stats:
+# Load=153/1024=15%, Rehash=0, Collisions=26/278=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/asm: could not be stat'd.
+# /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/resources: could not be stat'd.
+# resources: could not be stat'd.
+# asm: could not be stat'd.
+# /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/data (device 1079943153, inode 8725724278157691): 2 files, no impossibilities.
+ 
+# . (device 1079943153, inode 4222124650786832): 12 files, no impossibilities.
+# /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/source (device 1079943153, inode 43910096367076167): 6 files, no impossibilities.
+# source (device 1079943153, inode 43910096367076167): 6 files, no impossibilities.
+# data (device 1079943153, inode 8725724278157691): 2 files, no impossibilities.
+
+# 28 files, no impossibilities in 9 directories.
+
+# Implicit Rules
+
+%.a:
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 12):
+	$(SILENTMSG) $(notdir $@)
+	@rm -f $@
+	$(SILENTCMD)$(AR) -rc $@ $^
+
+%.arm.o: %.arm.cpp
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 18):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.arm.d $(CXXFLAGS) -marm -c $< -o $@ $(ERROR_FILTER)
+
+%.arm.o: %.arm.c
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 23):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.arm.d $(CFLAGS) -marm -c $< -o $@ $(ERROR_FILTER)
+
+%.arm.o: %.arm.m
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 28):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.arm.d $(OBJCFLAGS) -marm -c $< -o $@ $(ERROR_FILTER)
+
+%.thumb.o: %.thumb.cpp
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 33):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.thumb.d $(CXXFLAGS) -mthumb -c $< -o $@ $(ERROR_FILTER)
+
+%.thumb.o: %.thumb.c
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 38):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.thumb.d $(CFLAGS) -mthumb -c $< -o $@ $(ERROR_FILTER)
+
+%.thumb.o: %.thumb.m
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 43):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.thumb.d $(OBJCFLAGS) -mthumb -c $< -o $@ $(ERROR_FILTER)
+
+%.iwram.o: %.iwram.cpp
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 48):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.iwram.d $(CXXFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.iwram.o: %.iwram.c
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 53):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.iwram.d $(CFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.iwram.o: %.iwram.m
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 58):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.iwram.d $(OBJCFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.itcm.o: %.itcm.cpp
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 63):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.itcm.d $(CXXFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.itcm.o: %.itcm.c
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 68):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.itcm.d $(CFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.itcm.o: %.itcm.m
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 73):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.itcm.d $(OBJCFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
+
+%.o: %.cpp
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 79):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.d $(CXXFLAGS) -c $< -o $@ $(ERROR_FILTER)
+
+%.o: %.c
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 84):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.d $(CFLAGS) -c $< -o $@ $(ERROR_FILTER)
+
+ 
+%.o: %.m
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 89):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.d $(OBJCFLAGS) -c $< -o $@ $(ERROR_FILTER)
+
+%.o: %.s
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 94):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.d -x assembler-with-cpp $(ASFLAGS) -c $< -o $@ $(ERROR_FILTER)
+
+%.o: %.S
+#  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 99):
+	$(SILENTMSG) $(notdir $<)
+	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.d -x assembler-with-cpp $(ASFLAGS) -c $< -o $@ $(ERROR_FILTER)
+
+%.gba: %.elf
+#  recipe to execute (from '/c/devkitPro/devkitARM/gba_rules', line 14):
+	$(SILENTCMD)$(OBJCOPY) -O binary $< $@
+	@echo built ... $(notdir $@)
+	$(SILENTCMD)gbafix $@
+
+%_mb.elf:
+#  recipe to execute (from '/c/devkitPro/devkitARM/gba_rules', line 20):
+	$(SILENTMSG) linking multiboot
+	$(SILENTCMD)$(LD) -specs=gba_mb.specs $(LDFLAGS) $(OFILES) $(LIBPATHS) $(LIBS) -o $@
+
+%.elf:
+#  recipe to execute (from '/c/devkitPro/devkitARM/gba_rules', line 25):
+	$(SILENTMSG) linking cartridge
+	$(SILENTCMD)$(LD)  $(LDFLAGS) -specs=gba.specs $(OFILES) $(LIBPATHS) $(LIBS) -o $@
+
+# 21 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+/c/devkitPro/devkitARM/base_tools:
+#  Implicit rule search has been done.
+#  Last modified 2020-07-28 03:27:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/c/devkitPro/devkitARM/base_rules:
+#  Implicit rule search has been done.
+#  Last modified 2020-07-28 03:27:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-10 19:33:25.4592248
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 127):
+	@echo clean ...
+	@rm -fr $(BUILD) $(TARGET).elf $(TARGET).gba 
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 122):
+	@[ -d $@ ] || mkdir -p $@
+	@$(MAKE) BUILDDIR=`cd $(BUILD) && pwd` --no-print-directory -C $(BUILD) -f $(CURDIR)/Makefile
+
+# Not a target:
+/c/devkitPro/devkitARM/gba_rules:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-23 17:21:33.7114274
+#  File has been updated.
+ 
+#  Successfully updated.
+
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: build clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=10/1024=1%, Rehash=0, Collisions=0/33=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# General ('VPATH' variable) search path:
+# /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/asm:/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/source:/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/resources:/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/data
+
+# strcache buffers: 1 (0) / strings = 59 / storage = 753 B / avg = 12 B
+# current buf: size = 8162 B / used = 753 B / count = 59 / avg = 12 B
+
+# strcache performance: lookups = 96 / hit rate = 38%
+# hash-table stats:
+# Load=59/8192=1%, Rehash=0, Collisions=3/96=3%
+# Finished Make data base on Thu Feb 10 19:33:27 2022
+
+ 
