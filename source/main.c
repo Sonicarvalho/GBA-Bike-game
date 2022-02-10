@@ -26,7 +26,7 @@ int main()
 	int colliding = 0;
 	int score = 0;
 	char score_str[20];
-	
+	 
 	sqran(50);
 	txt_init_std();
 	initObstacles(obstacles,3);
