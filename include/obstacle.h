@@ -16,10 +16,16 @@
 #ifndef GRIT_OBSTACLE_H
 #define GRIT_OBSTACLE_H
 
-#define obstacleBitmapLen 128
 #include "bike.h"
 
+#define obstacleBitmapLen 128
+#define NR_OBSTACLES 3
+#define OBSTACLE_HEIGHT 8
+#define OBSTACLE_WIDTH NR_OBSTACLES*OBSTACLE_HEIGHT
+
+
 extern const unsigned char obstacleBitmap[128];
+
 
 typedef struct Obstacle
 {
@@ -27,11 +33,13 @@ typedef struct Obstacle
 	int active;
 }Obstacle;
 
-void * initObstacles(Obstacle *o,int len);
+void initObstacles(Obstacle *o,int len);
 void drawObstacles(Obstacle * obs, int len);
 void clearObstacles(Obstacle * obs, int len);
-void moveObstacles(Obstacle * obs, int len);
+void moveObstacles(Obstacle * obs, int len, int rng);
+void checkActivateObstacles(Obstacle * obs, int len, int frame);
 int isBikeColliding(Bike * b, Obstacle * o);
+void updateSpeed(int * speed, int frame);
 
 
 #endif // GRIT_OBSTACLE_H

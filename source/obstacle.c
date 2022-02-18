@@ -28,9 +28,10 @@ const unsigned char obstacleBitmap[128] __attribute__((aligned(4)))=
 	0x00,0x00,0xFF,0x7F,0xFF,0x7F,0x1F,0x0A,0x1F,0x0A,0xFF,0x7F,0xFF,0x7F,0x00,0x00,
 	0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0x7F,0xFF,0x7F,0x00,0x00,0x00,0x00,0x00,0x00,
 };
+//static int activeObs = 0;
 
-void * initObstacles(Obstacle *o,int len){
-	for (int i = 0; i<3; i++){
+void initObstacles(Obstacle *o,int len){
+	for (int i = 0; i<len; i++){
 		o[i].x = 0+i*40;
 		o[i].y = 0;
 		o[i].active = 0;
@@ -40,24 +41,61 @@ void * initObstacles(Obstacle *o,int len){
 void drawObstacles(Obstacle * obs, int len){
 	for (int i = 0; i<len; i++){
 		for (int j = 0; j<3; j++){
-			drawSprite_M3(obs[i].x + j*8,obs[i].y,8,8,&obstacleBitmap);
+			if(obs[i].active != 0){
+				drawSprite_M3(obs[i].x + j*8,obs[i].y,8,8,&obstacleBitmap);
+			}
 		}
 	}
 }
 
 void clearObstacles(Obstacle * obs, int len){
 	for (int i = 0; i<len; i++){
-		m3_rect(obs[i].x,obs[i].y,obs[i].x + 8*3,obs[i].y+8, CLR_BLACK);
+		if(obs[i].active != 0)
+			m3_rect(obs[i].x,obs[i].y,obs[i].x + 8*3,obs[i].y+8, CLR_BLACK);
 	}
 }
 
-void moveObstacles(Obstacle * obs, int len){
-	for (int i = 0; i<len; i++){
-		int y = obs[i].y + 8;		
-		if(y > 160)
-			y -= 160;
+void checkActivateObstacles(Obstacle * obs, int len, int frame){
+	switch(frame){
+		case 0:
+			obs[0].active = 1;
+			break;
+		case 8*32:	
+			obs[1].active = 1;
+			break;
+		case 12*32:
+			obs[2].active = 1;
+			break;
+	}
+}
 
-		 obs[i].y = y;
+void updateSpeed(int * speed, int frame){
+	switch(frame){
+		case 20*32:
+			*speed = 15;
+			break;
+		case 20*32 + 20*16:	
+			*speed = 7;
+			break;
+		case 20*32 + 20*8:
+			*speed = 3;
+			break;
+	}
+}
+
+void moveObstacles(Obstacle * obs, int len, int rng){
+	for (int i = 0; i<len; i++){
+		if(obs[i].active != 0){
+			int y = obs[i].y + 8;		
+			
+			if(y > 160){
+				y -= 168;
+				obs[i].x = rng;
+			}
+				
+
+			obs[i].y = y;
+		}
 	}
 }
 
