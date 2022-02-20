@@ -35,7 +35,7 @@ int main()
 	//m3_rect(200,150,200+16,150+8, RGB15(5,15,31));
 
 	//drawSprite_M3(50,50,8,24,&bikeBitmap);
-	initBike(&b, 140 ,15*8);
+	initBike(&b, 120 ,15*8);
 	drawBikeM3(&b);
 	//drawSprite_M3(obs,obs,8,8,&obstacleBitmap);
 	//drawBikeM3(50,50);
@@ -66,17 +66,21 @@ int main()
 		}
 		
 
-		if(key_hit(KEY_RIGHT)){
+		if(key_hit(KEY_RIGHT)  || key_held(KEY_RIGHT)){
 			clearBike(b.x,b.y);
 			newX = b.x + 8;
+			if(newX >= 240) 
+				newX -= 8;
 			moveBike(&b,newX,b.y);
 			drawBikeM3(&b);
 			//drawSprite_M3(rng,rng,8,8,&obstacleBitmap);
 			sqran(frame);
 		}
-		if(key_hit(KEY_LEFT)){
+		if(key_hit(KEY_LEFT)  || key_held(KEY_LEFT)){
 			clearBike(b.x,b.y);
 			newX = b.x - 8;
+			if(newX < 0) 
+				newX += 8;
 			moveBike(&b,newX,b.y);
 			drawBikeM3(&b);
 			sqran(frame);

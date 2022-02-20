@@ -9,13 +9,11 @@ make: *** No rule to make target 'all'.  Stop.
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Sun Feb 13 18:11:39 2022
+# Make data base, printed on Fri Feb 18 23:38:12 2022
 
 # Variables
  
 
-# environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -39,7 +37,7 @@ OFILES :=   bike.o m3_gfx.o main.o obstacle.o posprintf.o
 # environment
 LOCALAPPDATA = C:\Users\Miguel Carvalho\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2ac3836b-b238-4d1d-a1f7-1776e0a707fb-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-c4e55a9d-6cf9-440a-9aec-c43bbc5b8463-sock
 # makefile (from 'Makefile', line 74)
 VPATH := /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/asm /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/source /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/resources /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/data 
 # makefile (from 'Makefile', line 80)
@@ -65,11 +63,9 @@ OFILES_BIN :=
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18620_DKCOOUAPKTLRRZZB
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_29232_LOQWEQHCCYOZHAZE
 # makefile (from 'Makefile', line 81)
 CPPFILES := $(subst ,,  )
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -85,7 +81,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Miguel Carvalho\AppData\Roaming\Code\CachedData\d6ee99e4c045a6716e5c653d7da8e9ae6f5a8b03
+VSCODE_CODE_CACHE_PATH = C:\Users\Miguel Carvalho\AppData\Roaming\Code\CachedData\f80445acd5a3dadef24aa209168452a3d97cc326
 # environment
 LANG = C
 # default
@@ -98,7 +94,6 @@ TMP = /home/MIGUEL~1/AppData/Local/Temp
 CONFIGSETROOT = C:\WINDOWS\ConfigSetRoot
 # makefile
 MAKEFLAGS = pqrR
- 
 # makefile (from 'Makefile', line 82)
 SFILES := posprintf.s  
 # environment
@@ -106,6 +101,7 @@ ONEDRIVE = C:\Users\Miguel Carvalho\OneDrive
 # makefile (from 'Makefile', line 2)
 DEVKITARM = /c/devkitPro/devkitARM
 # makefile
+ 
 CURDIR := /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master
 # environment
 VSCODE_PIPE_LOGGING = true
@@ -138,7 +134,7 @@ ASFLAGS := -g -mthumb -mthumb-interwork
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 18620
+VSCODE_PID = 29232
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # makefile (from '/c/devkitPro/devkitARM/base_tools', line 28)
@@ -176,7 +172,6 @@ OFILES_SOURCES :=  bike.o m3_gfx.o main.o obstacle.o posprintf.o
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # environment
- 
 COMSPEC = C:\WINDOWS\system32\cmd.exe
 # environment
 WINDIR = C:\WINDOWS
@@ -187,6 +182,7 @@ MAKELEVEL := 0
 # makefile (from 'Makefile', line 116)
 LIBPATHS := -L/c/devkitPro/libgba/lib -L/c/devkitPro/libtonc/lib
 # default
+ 
 MAKE = $(MAKE_COMMAND)
 # makefile (from '/c/devkitPro/devkitARM/base_tools', line 14)
 PATH := /c/devkitPro/tools/bin:/c/devkitPro/devkitARM/bin:/opt/devkitpro/msys2/usr/bin:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Python27:/c/Python27/Scripts:/c/ProgramData/Boxstarter:/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0:/c/Windows/System32/OpenSSH:/c/Program Files/nodejs:/c/ProgramData/chocolatey/bin:/home/Miguel Carvalho/Documents/apache-maven-3.6.3/bin:/c/Program Files (x86)/Windows Live/Shared:/c/Program Files/dotnet:/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/c/Program Files (x86)/dotnet:/home/Miguel Carvalho/AppData/Local/Programs/Python/Python37/Scripts:/home/Miguel Carvalho/AppData/Local/Programs/Python/Python37:/c/Ruby25-x64/bin:/home/Miguel Carvalho/AppData/Local/Microsoft/WindowsApps:/home/Miguel Carvalho/AppData/Local/Programs/Microsoft VS Code/bin:/home/Miguel Carvalho/AppData/Roaming/npm:/home/Miguel Carvalho/Documents/apache-maven-3.6.3/bin:%USERPROFILE%/AppData/Local/Microsoft/WindowsApps
@@ -230,7 +226,6 @@ UNAME_S := MSYS_NT-10.0-19044
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
 # automatic
 +F = $(notdir $+)
- 
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -253,6 +248,7 @@ SILENTCMD := @
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # makefile (from 'Makefile', line 27)
 BUILD := build
+ 
 # makefile (from 'Makefile', line 49)
 LDFLAGS = -g $(ARCH) -Wl,-Map,$(notdir $*.map)
 # environment
@@ -288,7 +284,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = /home/MIGUEL~1/AppData/Local/Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\6b076e4cfa46f84c0cb2de02c2a28ecf-1.64.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\6b076e4cfa46f84c0cb2de02c2a28ecf-1.64.2-main-sock
 # environment
 TERM = xterm-256color
 # makefile (from '/c/devkitPro/devkitARM/base_tools', line 27)
@@ -316,7 +312,6 @@ STRIP := arm-none-eabi-strip
 # environment
 PROCESSOR_REVISION = 8e0b
 # makefile (from '/c/devkitPro/devkitARM/base_tools', line 22)
- 
 CXX := arm-none-eabi-g++
 # makefile (from '/c/devkitPro/devkitARM/base_tools', line 21)
 CC := arm-none-eabi-gcc
@@ -329,7 +324,8 @@ DATA := data
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 11, GenuineIntel
 # variable set hash-table stats:
-# Load=155/1024=15%, Rehash=0, Collisions=27/280=10%
+ 
+# Load=153/1024=15%, Rehash=0, Collisions=26/278=9%
 
 # Pattern-specific Variable Values
 
@@ -342,19 +338,18 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 11, GenuineIntel
 # resources: could not be stat'd.
 # asm (device 1079943153, inode 68398419340714773): 3 files, no impossibilities.
 # /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/data (device 1079943153, inode 8725724278157691): 2 files, no impossibilities.
-# . (device 1079943153, inode 4222124650786832): 16 files, no impossibilities.
+# . (device 1079943153, inode 4222124650786832): 19 files, no impossibilities.
 # /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/source (device 1079943153, inode 43910096367076167): 6 files, no impossibilities.
 # source (device 1079943153, inode 43910096367076167): 6 files, no impossibilities.
 # data (device 1079943153, inode 8725724278157691): 2 files, no impossibilities.
 
-# 38 files, no impossibilities in 9 directories.
+# 41 files, no impossibilities in 9 directories.
 
 # Implicit Rules
 
 %.a:
 #  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 12):
 	$(SILENTMSG) $(notdir $@)
- 
 	@rm -f $@
 	$(SILENTCMD)$(AR) -rc $@ $^
 
@@ -394,6 +389,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 11, GenuineIntel
 	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.iwram.d $(CXXFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
 
 %.iwram.o: %.iwram.c
+ 
 #  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 53):
 	$(SILENTMSG) $(notdir $<)
 	$(SILENTCMD)$(CC) -MMD -MP -MF $(DEPSDIR)/$*.iwram.d $(CFLAGS) -marm -mlong-calls -c $< -o $@ $(ERROR_FILTER)
@@ -422,7 +418,6 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 11, GenuineIntel
 #  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 79):
 	$(SILENTMSG) $(notdir $<)
 	$(SILENTCMD)$(CXX) -MMD -MP -MF $(DEPSDIR)/$*.d $(CXXFLAGS) -c $< -o $@ $(ERROR_FILTER)
- 
 
 %.o: %.c
 #  recipe to execute (from '/c/devkitPro/devkitARM/base_rules', line 84):
@@ -475,6 +470,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 11, GenuineIntel
 #  Implicit rule search has been done.
 #  Last modified 2020-07-28 03:27:14
 #  File has been updated.
+ 
 #  Successfully updated.
 
 # Not a target:
@@ -487,7 +483,6 @@ Makefile:
 clean:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
- 
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 127):
@@ -541,13 +536,14 @@ build:
 
 # General ('VPATH' variable) search path:
 # /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/asm:/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/source:/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/resources:/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/data
+ 
 
-# strcache buffers: 1 (0) / strings = 63 / storage = 817 B / avg = 12 B
-# current buf: size = 8162 B / used = 817 B / count = 63 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 65 / storage = 873 B / avg = 13 B
+# current buf: size = 8162 B / used = 873 B / count = 65 / avg = 13 B
 
-# strcache performance: lookups = 103 / hit rate = 38%
+# strcache performance: lookups = 106 / hit rate = 38%
 # hash-table stats:
-# Load=63/8192=1%, Rehash=0, Collisions=3/103=3%
-# Finished Make data base on Sun Feb 13 18:11:39 2022
+# Load=65/8192=1%, Rehash=0, Collisions=3/106=3%
+# Finished Make data base on Fri Feb 18 23:38:12 2022
 
  

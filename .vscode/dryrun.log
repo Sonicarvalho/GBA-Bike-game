@@ -2,18 +2,28 @@ make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master'
  
 [ -d build ] || mkdir -p build
- 
 make BUILDDIR=`cd build && pwd` --no-print-directory -C build -f /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/Makefile
  
-/bin/sh: line 1: cd: build: No such file or directory
+echo bike.c
+arm-none-eabi-gcc -MMD -MP -MF /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build/bike.d -g -Wall -O3 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math -mthumb -mthumb-interwork -iquote /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/include -iquote /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/resources -I/c/devkitPro/libgba/include -I/c/devkitPro/libtonc/include -I/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build -c /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/source/bike.c -o bike.o 
  
-make[1]: Entering directory '/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master'
+echo m3_gfx.c
+arm-none-eabi-gcc -MMD -MP -MF /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build/m3_gfx.d -g -Wall -O3 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math -mthumb -mthumb-interwork -iquote /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/include -iquote /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/resources -I/c/devkitPro/libgba/include -I/c/devkitPro/libtonc/include -I/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build -c /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/source/m3_gfx.c -o m3_gfx.o 
  
-make[1]: *** build: No such file or directory.  Stop.
+echo main.c
+arm-none-eabi-gcc -MMD -MP -MF /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build/main.d -g -Wall -O3 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math -mthumb -mthumb-interwork -iquote /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/include -iquote /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/resources -I/c/devkitPro/libgba/include -I/c/devkitPro/libtonc/include -I/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build -c /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/source/main.c -o main.o 
  
-make[1]: Leaving directory '/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master'
+echo obstacle.c
+arm-none-eabi-gcc -MMD -MP -MF /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build/obstacle.d -g -Wall -O3 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math -mthumb -mthumb-interwork -iquote /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/include -iquote /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/resources -I/c/devkitPro/libgba/include -I/c/devkitPro/libtonc/include -I/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build -c /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/source/obstacle.c -o obstacle.o 
  
-make: *** [Makefile:123: build] Error 2
+echo posprintf.s
+arm-none-eabi-gcc -MMD -MP -MF /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/build/posprintf.d -x assembler-with-cpp -g -mthumb -mthumb-interwork -c /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/asm/posprintf.s -o posprintf.o 
+echo linking cartridge
+arm-none-eabi-gcc  -g -mthumb -mthumb-interwork -Wl,-Map,GBA_VSCode_Basic-master.map -specs=gba.specs   bike.o m3_gfx.o main.o obstacle.o posprintf.o -L/c/devkitPro/libgba/lib -L/c/devkitPro/libtonc/lib -lmm -lgba -ltonc -o /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/GBA_VSCode_Basic-master.elf
+ 
+arm-none-eabi-objcopy -O binary /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/GBA_VSCode_Basic-master.elf /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/GBA_VSCode_Basic-master.gba
+echo built ... GBA_VSCode_Basic-master.gba
+gbafix /opt/devkitpro/projects/gba/GBA_VSCode_Basic-master/GBA_VSCode_Basic-master.gba
  
 make: Leaving directory '/opt/devkitpro/projects/gba/GBA_VSCode_Basic-master'
  
